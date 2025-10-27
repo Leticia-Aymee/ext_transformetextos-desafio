@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="styles.css">
+
+        <title>Extensão TT</title>
+    </head>
+
+    <body>
+        <!-- Estrutura do Programa -->
+        <div class="container-pai">
+            <header class="cabecalho">
+                <img src="./icons/tt-icon16.jpg" alt="logo" class="logo">
+                <h1>TRANSFORME textos</h1>
+            </header>
+            
+            <input type="text" id="input-text" class="input-text" maxlength="500" placeholder="Digite seu texto aqui!" required>
+
+            <div class="container-button">
+                <button type="button" class="btn" id="btnMaiuscula">ABC</button>
+                <button type="button" class="btn" id="btnMinuscula">abc</button>
+                <button type="button" class="btn" id="btnPriMaiuscula">Aa</button>
+                <button type="button" class="btn" id="btnLimpar">Excluir</button>
+                <button type="button" class="btn" id="btnDuplicar">Duplicar</button>
+            </div>
+
+            <div id="result" class="result">Resultado</div>
+
+            <footer class="rodape">
+                Para mais opções, visite:
+                <a href="https://tiagoneves.com.br" target="_blank">tiagoneves.com.br</a>
+            </footer>
+        </div>
+
+        <!-- Link do JavaScript -->
+        <script src="script.js"></script>
+    </body>
+</html>
